@@ -1,0 +1,8 @@
+services:
+  xxx:
+    image: xxx
+    container_name: xxx
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: always
